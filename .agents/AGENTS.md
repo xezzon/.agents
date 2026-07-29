@@ -1,5 +1,6 @@
 ## GitHub 操作
 
+- 发起 GitHub Issue 或 Pull Request 前，检查目标仓库是否已有相似的 issue/PR。如果已存在，则中止创建过程，提供相关信息向我确认。
 - 发起 GitHub Issue 或 Pull Request 时，必须遵循目标仓库提供的相应模板，包括标签（tag）、元数据及其他预设信息。
 
 ## 语言
