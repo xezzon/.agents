@@ -13,6 +13,7 @@ npx skills add xezzon/agent-skills
 # 安装指定 skill
 npx skills add xezzon/agent-skills --skill plan-edit
 npx skills add xezzon/agent-skills --skill plan-implement
+npx skills add xezzon/agent-skills --skill pull-request-rules
 
 # 安装到全局作用域
 npx skills add xezzon/agent-skills -g
@@ -30,6 +31,9 @@ npx skills add xezzon/agent-skills -g
 - 支持通过 `steps` 参数指定执行部分步骤（如 `1,3,5`）
 - 默认跳过已勾选的步骤；出错时立即停止
 
+### [`pull-request-rules`](./skills/pull-request-rules)
+处理 GitHub Issue 和 Pull Request 的创建流程：先查找相似项，再读取并遵循目标仓库的模板、标签和必填元数据。
+
 ## 目录结构
 
 ```
@@ -37,7 +41,9 @@ agent-skills/
 ├── skills/
 │   ├── plan-edit/
 │   │   └── SKILL.md
-│   └── plan-implement/
+│   ├── plan-implement/
+│   │   └── SKILL.md
+│   └── pull-request-rules/
 │       └── SKILL.md
 ├── LICENSE
 └── README.md
