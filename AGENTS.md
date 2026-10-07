@@ -68,6 +68,8 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 When grilling, ask one question at a time.
 
+When implement, DO NOT commit until confimed.
+
 # Agent Instruction
 
 ## 语言
