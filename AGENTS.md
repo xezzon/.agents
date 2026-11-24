@@ -1,3 +1,5 @@
+> 本文档是对 AGENT 的行为约束。优先级高于 skills、低于用户提示词。
+
 # Skill overrides
 
 When grilling, ask one question at a time.
