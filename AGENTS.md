@@ -1,6 +1,6 @@
 # Skill overrides
 
-When grilling, ask one question at a time.
+When grilling, ask one question at a time unless using a dedicated question tool provided by the harness that supports asking multiple questions at once.
 
 When a skill puts `GLOSSARY.md` or `GLOSSARY-MAP.md` at the repo root, use `docs/` instead.
 
