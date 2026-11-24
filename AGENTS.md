@@ -2,11 +2,11 @@
 
 # Skill overrides
 
-When grilling, ask one question at a time.
-
 When a skill puts `GLOSSARY.md` or `GLOSSARY-MAP.md` at the repo root, use `docs/` instead.
 
-- **handoff**: save the handoff document to `.scratch/handoff/`.
+When grilling, ask one question at a time.
+
+save the handoff document to `.scratch/handoff/`.
 
 # 草稿目录
 
